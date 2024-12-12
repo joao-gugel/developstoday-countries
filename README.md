@@ -30,9 +30,9 @@ Welcome to this full-stack countries App.
    npm install
    ```
 3. Run in development mode:
-   `bash
-npm run dev
-`
+   ```bash
+   npm run dev
+   ```
    The backend will be available by default at http://localhost:8000.
 
 4. To run the production mode, use:
@@ -60,14 +60,14 @@ npm run dev
    npm install
    ```
 4. Run in development mode:
-   `bash
-npm run dev
-`
+   ```bash
+   npm run dev
+   ```
    The backend will be available by default at http://localhost:8000.
 
 5. To run the production mode, use:
-   `bash
-npm run build
-npm start
-`
+   ```bash
+   npm run build
+   npm start
+   ```
    The frontend will be available by default at http://localhost:3000.

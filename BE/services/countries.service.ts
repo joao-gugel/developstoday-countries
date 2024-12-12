@@ -5,10 +5,17 @@ export default {
     try {
       const countries = await countriesRepository.getCountries();
       return countries;
-    } catch (err) {
-      throw err;
+    } catch (error) {
+      throw error;
     }
   },
 
-  findCountryInfo(countryId: string) {},
+  async findCountryInfo(countryCode: string) {
+    try {
+      const countryInfo = await countriesRepository.getCountryInfo(countryCode);
+      return countryInfo;
+    } catch (error) {
+      throw error;
+    }
+  },
 };

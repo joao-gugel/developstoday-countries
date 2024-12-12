@@ -49,17 +49,23 @@ npm run dev
    cd fe
    ```
 
-2. Install the dependencies:
+2. Add api url creating a ` .env` file following the `.env.example`
+
+   ```
+   NEXT_PUBLIC_API_URL="http://localhost:8000"
+   ```
+
+3. Install the dependencies:
    ```bash
    npm install
    ```
-3. Run in development mode:
+4. Run in development mode:
    `bash
 npm run dev
 `
    The backend will be available by default at http://localhost:8000.
 
-4. To run the production mode, use:
+5. To run the production mode, use:
    `bash
 npm run build
 npm start
